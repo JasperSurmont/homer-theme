@@ -73,7 +73,7 @@ services:
     icon: "fas truck-fast"
     items:
       - name: "Stirling PDF"
-        logo: "assets/icons/stirling-pdf.jpg"
+        logo: "assets/icons/stirling-pdf-logo.jpg"
         subtitle: "For all your PDF needs"
         tag: "util"
         url: "https://docker-util.local:32768"
