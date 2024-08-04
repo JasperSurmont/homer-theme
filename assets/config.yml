@@ -1,6 +1,6 @@
 ---
-title: "Homer Theme"
-subtitle: "Walkx"
+title: "Homelab"
+subtitle: "Jasper"
 logo: "logo.png"
 
 header: false
@@ -42,24 +42,49 @@ colors:
     background-image: "../assets/wallpaper.jpeg"
 
 services:
-  - name: "//GitHub"
-    icon: "fas fa-github"
+  - name: "Networking"
+    icon: "fas network-wired"
     items:
-      - name: "Homer Theme"
-        logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
-        subtitle: "The official Homer Theme github!"
-        tag: "github"
-        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
-        url: "https://github.com/WalkxCode/Homer-Theme"
+      - name: "Pi-Hole"
+        logo: "assets/icons/Pi-hole_Logo.png" 
+        subtitle: "DNS and Ad blocker"
+        tag: "network"
+        type: "PiHole"
+        tagstyle: "is-primary" 
+        url: "http://pihole.local/admin"
+        apikey: [PIHOLE API KEY]
         target: "_blank"
+  - name: "Hypervisor"
+    icon: "fas computer"
+    items:
+      - name: "Proxmox"
+        logo: "assets/icons/proxmox-logo.png"
+        subtitle: "The one and only"
+        tag: "hypervisor"
+        url: "https://proxmox.local:8006"
+      - name: "Portainer"
+        logo: "assets/icons/portainer-logo.svg"
+        subtitle: "Hosting all kinds of things"
+        tag: "hypervisor"
+        type: "Portainer"
+        apikey: [PORTAINER API KEY]
+        url: "https://docker-util.local:9443"
+  - name: "Util"
+    icon: "fas truck-fast"
+    items:
+      - name: "Stirling PDF"
+        logo: "assets/icons/stirling-pdf.jpg"
+        subtitle: "For all your PDF needs"
+        tag: "util"
+        url: "https://docker-util.local:32768"
+  - name: "Automation"
+    icon: "fas home"
+    items:
+      - name: "Home Assistant"
+        logo: "assets/icons/home-assistant-logo.png"
+        subtitle: "Automation around every corner"
+        tag: "automation"
+        url: "http://homeassistant.local"
 
-  - name: "//Reddit"
-    icon: "fas fa-reddit"
-    items:
-      - name: "The original reddit post!"
-        logo: "assets/tools/reddit.png"
-        subtitle: "Yes... this is Homer."
-        tag: "reddit"
-        tagstyle: "is-info"
-        url: "https://www.reddit.com/r/selfhosted/comments/q9e82c/yes_this_is_homer_yes_i_spent_2_hours_customizing/"
-        target: "_blank"
+
+
