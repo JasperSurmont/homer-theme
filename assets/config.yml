@@ -93,7 +93,7 @@ services:
       - name: "Plant It"
         logo: "assets/icons/plantit-logo.jpg"
         subtitle: "Gardening"
-        url: "http://docker-util.home:8081"
+        url: "http://docker-util.home:3000"
         target: "_blank"
   - name: "Automation"
     icon: "fas home"
