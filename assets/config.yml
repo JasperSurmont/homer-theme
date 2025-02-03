@@ -71,8 +71,6 @@ services:
         logo: "assets/icons/portainer-logo.svg"
         subtitle: "Hosting all kinds of things"
         tag: "hypervisor"
-        type: "Portainer"
-        apikey: "ptr_pZTlm5qhFMzEx4zdr56H7fbsWP2oecQ65X4NW5IDom4="
         url: "https://docker-util.home:9443"
         target: "_blank"
   - name: "Util"
