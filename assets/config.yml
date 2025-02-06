@@ -107,6 +107,13 @@ services:
         tag: "automation"
         url: "https://homeassistant.home"
         target: "_blank"
+  - name: "Media"
+    items:
+      - name: "Immich"
+        logo: "assets/icons/immich-logo.png"
+        subtitle: "Image sync"
+        url: "https://immich.home"
+        target: "_blank"
 
 
 
