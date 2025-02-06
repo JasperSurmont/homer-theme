@@ -97,6 +97,7 @@ services:
         subtitle: "Recipes"
         url: "https://mealie.docker-util.home"
         target: "_blank"
+        logo: "assets/icons/mealie-logo.png"
   - name: "Automation"
     icon: "fas home"
     items:
